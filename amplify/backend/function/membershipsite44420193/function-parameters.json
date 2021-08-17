@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "auth": {
+      "membershipsite2f91f61b": [
+        "create",
+        "read",
+        "update",
+        "delete"
+      ]
+    }
+  },
+  "lambdaLayers": [],
+  "secretNames": [
+    "stripe_key"
+  ]
+}

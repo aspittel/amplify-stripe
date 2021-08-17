@@ -1,0 +1,35 @@
+{
+  "paths": [
+    {
+      "name": "/webhook",
+      "lambdaFunction": "membershipsite44420193",
+      "privacy": {
+        "open": true
+      },
+      "policyResourceName": "/webhook"
+    }
+  ],
+  "resourceName": "api39ffc9d2",
+  "apiName": "api39ffc9d2",
+  "functionArns": [
+    {
+      "lambdaFunction": "membershipsite44420193"
+    }
+  ],
+  "privacy": {
+    "auth": 0,
+    "unauth": 0,
+    "authRoleName": "amplify-membershipsite-dev-132617-authRole",
+    "unAuthRoleName": "amplify-membershipsite-dev-132617-unauthRole"
+  },
+  "dependsOn": [
+    {
+      "category": "function",
+      "resourceName": "membershipsite44420193",
+      "attributes": [
+        "Name",
+        "Arn"
+      ]
+    }
+  ]
+}
